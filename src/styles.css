@@ -1,0 +1,113 @@
+body {
+  color: #eeeeee;
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+}
+
+h1 {
+  color: #f3b509;
+  font-weight: 700;
+  text-align: center;
+  margin: 0 auto;
+  padding: 5px 5px;
+}
+
+a {
+  color: #fde7a9;
+}
+
+a:hover {
+  color: #eeeeee;
+}
+
+footer {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 14px;
+  color: #2b2b2b;
+}
+
+input {
+  border: 1px solid #000000;
+  float: right;
+  border: none;
+}
+
+button {
+  background-color: transparent !important;
+  border: none !important;
+  color: #ffffff !important;
+  margin: 0 auto;
+  box-shadow: 2px 2px #4b4b4b;
+}
+
+sup {
+  font-size: 20px;
+}
+
+.container {
+  background-image: linear-gradient(120deg, #142d68 0%, #faa0a3 100%);
+  display: block;
+  width: 550px;
+  height: 625px;
+  margin: 5px auto;
+  border-radius: 20px;
+  border: 1px solid #f3b509;
+  padding: 20px 25px;
+}
+
+.current-temp {
+  font-size: 50px;
+}
+
+.weather-description {
+  font-weight: bolder;
+  text-transform: capitalize;
+}
+
+#current-time {
+  padding: 5px;
+}
+
+#search-container {
+  padding: 5px;
+}
+
+#weather-container {
+  padding: 50px;
+  padding-right: 40px;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+#weather-container i {
+  color: #ffffff;
+  font-size: 90px;
+  float: right;
+}
+
+#weather-detail {
+  font-size: 18px;
+  padding-top: 60px;
+  padding-left: 0px;
+}
+
+#forecast {
+  text-align: center;
+  margin: 3px;
+  padding: 25px 5px;
+  border: 2px solid #f3b509;
+  border-radius: 10px;
+}
+
+#forecast i {
+  color: #ffffff;
+  font-size: 40px;
+  border-radius: 10px;
+}
+
+#forecast i {
+  color: #ffffff;
+  font-size: 40px;
+}
