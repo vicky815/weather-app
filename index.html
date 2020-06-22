@@ -28,12 +28,22 @@
                 <p id="current-time"></p>
             </div>
 
-            <div class="col-6" id="search-container">
+            <div class="search-container">
                 <form id="search-engine">
-                    <input type="text" placeholder="Search location" class="form-control"
-                    id="search-city-text" autocomplete="off">
-                        <button type="submit" class="btn btn-primary"><i class="fa fa-search"></i></button>
-                        <button id="current-location" class="btn btn-primary"><i class="far fa-compass"></i></button>
+                    <div class="row">
+                        <div class="col-8">
+                            <input type="text" placeholder="Search location" class="form-control" id="search-city-text"
+                                autocomplete="off">
+            
+                        </div>
+                        <div class="btn-group" role="group">
+                            <div class="col">
+                                <button type="submit" class="btn btn-primary"><i class="fa fa-search"></i></button>
+            
+                                <button id="current-location" class="btn btn-primary"><i class="far fa-compass"></i></button>
+                            </div>
+                        </div>
+                    </div>
                 </form>
             </div>
         </div>
