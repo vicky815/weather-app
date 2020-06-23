@@ -4,14 +4,12 @@
 <head>
     <title>Weather App</title>
     <meta charset="UTF-8" />
-    
+    <link href="src/styles.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
     <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
-    <link href="src/styles.css" />
     <script src="https://kit.fontawesome.com/1830c6c1ab.js" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-
 </head>
 
 <body>
@@ -68,34 +66,44 @@
 
         <div class="row">
             <div class="col" id="forecast">
-<div class="col">
-    <h6>Monday<br /><strong>20°C</strong> 15°C</h6>
-    <img src="http://openweathermap.org/img/wn/10d@2x.png" id="forecast-icon">
-</div>
+                <div class="col" id="day-1">
+                    <h6>Monday<br /><strong>20°C</strong> 15°C</h6>
+                </div>
+                <div id="forecast-icon">
+                    <img src="http://openweathermap.org/img/wn/10d@2x.png">
+                </div>
             </div>
             <div class="col" id="forecast">
-<div class="col">
-    <h6>Tuesday<br /><strong>20°C</strong> 15°C</h6>
-    <img src="http://openweathermap.org/img/wn/10d@2x.png" id="forecast-icon">
-</div>
+                <div class="col" id="day-2">
+                    <h6>Tuesday<br /><strong>20°C</strong> 15°C</h6>
+                </div>
+                <div id="forecast-icon">
+                    <img src="http://openweathermap.org/img/wn/10d@2x.png">
+                </div>
             </div>
             <div class="col" id="forecast">
-<div class="col">
-    <h6>Wednesday<br /><strong>20°C</strong> 15°C</h6>
-    <img src="http://openweathermap.org/img/wn/10d@2x.png" id="forecast-icon">
-</div>
+                <div class="col" id="day-3">
+                    <h6>Wednesday<br /><strong>20°C</strong> 15°C</h6>
+                </div>
+                <div id="forecast-icon">
+                    <img src="http://openweathermap.org/img/wn/10d@2x.png">
+                </div>
             </div>
             <div class="col" id="forecast">
-<div class="col">
-    <h6>Thursday<br /><strong>20°C</strong> 15°C</h6>
-    <img src="http://openweathermap.org/img/wn/10d@2x.png" id="forecast-icon">
-</div>
+                <div class="col" id="day-4">
+                    <h6>Thursday<br /><strong>20°C</strong> 15°C</h6>
+                </div>
+                <div id="forecast-icon">
+                    <img src="http://openweathermap.org/img/wn/10d@2x.png">
+                </div>
             </div>
             <div class="col" id="forecast">
-<div class="col">
-    <h6>Friday<br /><strong>20°C</strong> 15°C</h6>
-    <img src="http://openweathermap.org/img/wn/10d@2x.png" id="forecast-icon">
-</div>
+                <div class="col" id="day-5">
+                    <h6>Friday<br /><strong>20°C</strong> 15°C</h6>
+                </div>
+                <div id="forecast-icon">
+                    <img src="http://openweathermap.org/img/wn/10d@2x.png">
+                </div>
             </div>
         </div>
         <script src="src/index.js"></script>
