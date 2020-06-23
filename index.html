@@ -4,25 +4,20 @@
 <head>
     <title>Weather App</title>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" 
-        href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    <link href="src/styles.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
-    <link href="//fonts.googleapis.com/css2?family=Nunito&display=swap"               rel="stylesheet" type='text/css'>    
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/1830c6c1ab.js" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-    <link rel="stylesheet" href="src/styles.css" />
 </head>
 
 <body>
 
     <div class="container">
-        <h1 id="city-name">
-            Toronto
-        </h1>
-
+        <h1 id="city-name"></h1>
         <hr />
-        <!--Top row-->
+
         <div class="row">
             <div class="col" id="time-display">
                 <p id="current-time"></p>
@@ -34,13 +29,14 @@
                         <div class="col-8">
                             <input type="text" placeholder="Search location" class="form-control" id="search-city-text"
                                 autocomplete="off">
-            
+
                         </div>
                         <div class="btn-group" role="group">
                             <div class="col">
                                 <button type="submit" class="btn btn-primary"><i class="fa fa-search"></i></button>
-            
-                                <button id="current-location" class="btn btn-primary"><i class="far fa-compass"></i></button>
+
+                                <button id="current-location" class="btn btn-primary"><i
+                                        class="far fa-compass"></i></button>
                             </div>
                         </div>
                     </div>
@@ -48,15 +44,15 @@
             </div>
         </div>
 
-        <!--Middle row-->
+
         <div class="row">
             <div class="col-8" id="weather-container">
-                <span class="current-temp">15</span>
+                <span class="current-temp"></span>
                 <span>
                     <a href="#" id="celsius-link">°C</a> |
                     <a href="#" id="fahrenheit-link">°F</a>
                 </span>
-                <i class="fas fa-cloud-sun-rain" id="current-temp-icon"></i>
+                <img src="http://openweathermap.org/img/wn/10d@2x.png" id="current-temp-icon">
             </div>
             <div class="col-4" id="weather-detail">
                 <p>
@@ -67,52 +63,42 @@
             </div>
         </div>
 
-        <!--Bottom row-->
+
         <div class="row">
             <div class="col" id="forecast">
-                <p>
-                    Monday
-                    <br />
-                    20°C
-                </p>
-                <i class="fas fa-sun"></i>
+<div class="col">
+    <h6>Monday<br /><strong>20°C</strong> 15°C</h6>
+    <img src="http://openweathermap.org/img/wn/10d@2x.png" id="forecast-icon">
+</div>
             </div>
             <div class="col" id="forecast">
-                <p>
-                    Tuesday
-                    <br />
-                    20°C
-                </p>
-                <i class="fas fa-cloud-showers-heavy"></i>
+<div class="col">
+    <h6>Tuesday<br /><strong>20°C</strong> 15°C</h6>
+    <img src="http://openweathermap.org/img/wn/10d@2x.png" id="forecast-icon">
+</div>
             </div>
             <div class="col" id="forecast">
-                <p>
-                    Wednesday
-                    <br />
-                    20°C
-                </p>
-                <i class="fas fa-cloud-rain"></i>
+<div class="col">
+    <h6>Wednesday<br /><strong>20°C</strong> 15°C</h6>
+    <img src="http://openweathermap.org/img/wn/10d@2x.png" id="forecast-icon">
+</div>
             </div>
             <div class="col" id="forecast">
-                <p>
-                    Thursday
-                    <br />
-                    20°C
-                </p>
-                <i class="fas fa-wind"></i>
+<div class="col">
+    <h6>Thursday<br /><strong>20°C</strong> 15°C</h6>
+    <img src="http://openweathermap.org/img/wn/10d@2x.png" id="forecast-icon">
+</div>
             </div>
             <div class="col" id="forecast">
-                <p>
-                    Friday
-                    <br />
-                    20°C
-                </p>
-                <i class="fas fa-cloud"></i>
+<div class="col">
+    <h6>Friday<br /><strong>20°C</strong> 15°C</h6>
+    <img src="http://openweathermap.org/img/wn/10d@2x.png" id="forecast-icon">
+</div>
             </div>
         </div>
-        <script src="src/script.js"></script>
+        <script src="src/index.js"></script>
     </div>
-    <footer><a href="https://github.com/vicky815/weather-app" target="_blank">Open-source code</a> by Vicky Leung</footer>
+    <footer>Coded by Vicky Leung</footer>
     </div>
 </body>
 
