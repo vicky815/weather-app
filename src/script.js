@@ -47,16 +47,6 @@ function showResults(response) {
   );
 }
 
-// working on 5 day forecast - figure out how to find date on api
-//function displayForecast(response) {
-//  let forecast = response.data.list[1];
-//  console.log(forecast);
-
-//  document.querySelector("#max-temp") = Math.round(forecast.main.temp_max);
-//  document.querySelector("#forecast-icon") = forecast.main.icon;
-//  console.log(response.data);
-//}
-
 function search(city) {
   let apiKey = "77ef935cfd0fb8845d0422ce5b03c720";
   let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
