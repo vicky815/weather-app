@@ -90,7 +90,7 @@ function changeToFahrenheit(event) {
   currentTemp.innerHTML = Math.round(currentTemp.innerHTML * 1.8 + 32);
 }
 let fLink = document.querySelector("#fahrenheit-link");
-fLink.addEventListener("click", changeToFahrenheit);
+fLink.addEventListener("click", changeToFahrenheit, {once: true});
 
 function changeToCelsius(event) {
   event.preventDefault();
@@ -98,4 +98,4 @@ function changeToCelsius(event) {
   currentTemp.innerHTML = Math.round((currentTemp.innerHTML - 32) / 1.8);
 }
 let cLink = document.querySelector("#celsius-link");
-cLink.addEventListener("click", changeToCelsius);
+cLink.addEventListener("click", changeToCelsius, {once:true});
