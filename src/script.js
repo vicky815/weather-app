@@ -44,38 +44,3 @@ function showResults(response) {
 
 axios.get(apiUrl).then(showResults);
 
-//function search(city) {
-//  let apiKey = "77ef935cfd0fb8845d0422ce5b03c720";
-//  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
-//  axios.get(apiUrl).then(showResults);
-//}
-
-//function searchCity(event) {
-//  event.preventDefault();
-//  let city = document.querySelector("#search-city-text").value;
-//  search(city);
-//}
-
-//let searchSubmit = document.querySelector("#search-engine");
-//searchSubmit.addEventListener("submit", searchCity);
-
-// current location
-
-//function showPosition(event) {
-//  let apiKey = "77ef935cfd0fb8845d0422ce5b03c720";
-//  let lat = event.coords.latitude;
-//  let lon = event.coords.longitude;
-//  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&units=metric&appid=${apiKey}`;
-//  axios.get(apiUrl).then(showResults);
-//}
-
-//function currentLocation(event) {
-//  event.preventDefault();
-//  navigator.geolocation.getCurrentPosition(showPosition);
-//}
-
-//navigator.geolocation.getCurrentPosition(showPosition);
-
-//let currentLocationBtn = document.querySelector("#current-location");
-//currentLocationBtn.addEventListener("click", currentLocation);
-
