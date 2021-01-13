@@ -1,23 +1,15 @@
 body {
-  color: #eeeeee;
+  color: #ffffff;
   font-family: "Nunito", sans-serif;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 h1 {
-  color: #f3b509;
-  font-weight: 700;
+  color: #ffffff;
+  font-size: 30px;
   text-align: center;
   margin: 0 auto;
   padding: 5px 5px;
-}
-
-a {
-  color: #fde7a9;
-}
-
-a:hover {
-  color: #eeeeee;
 }
 
 footer {
@@ -44,79 +36,34 @@ button {
   box-shadow: 2px 2px #4b4b4b;
 }
 
-sup {
-  font-size: 20px;
-}
-
 .container {
-  background-image: linear-gradient(140deg, #1e3979 0%, #faafcc 100%);
+  background-image: linear-gradient(140deg, #2f467c 10%, #55a1d4 100%);
   display: block;
-  width: 550px;
-  height: 550px;
+  width: 200px;
+  height: 200px;
   margin: 5px auto;
-  border-radius: 20px;
-  border: 1px solid #f3b509;
+  border-radius: 15px;
+  border: 1px solid #000000;
   padding: 20px 25px;
 }
 
 .current-temp {
-  font-size: 50px;
-}
-
-.weather-description {
-  font-weight: bolder;
-  text-transform: capitalize;
+  font-size: 20px;
 }
 
 .search-container {
   padding: 5px;
 }
 
-.btn-group {
-  float: left;
-  padding-left: 0px;
-}
-
 #current-time {
+  margin: 0 auto;
   padding: 5px;
 }
 
 #current-temp-icon {
-  width: 130px;
+  width: 90px;
 }
 
 #weather-container {
-  padding: 20px;
-  padding-right: 40px;
-  margin-bottom: 30px;
-  text-align: left;
-}
-
-#weather-container i {
-  color: #ffffff;
-  font-size: 90px;
-  float: right;
-}
-
-#weather-detail {
-  font-size: 18px;
-  padding-top: 60px;
-  padding-left: 0px;
-}
-
-#forecast {
-  text-align: center;
-  width: 40px;
-  height: 150px;
-  padding: 10px 5px;
-}
-
-#forecast img {
-  width: 80px;
-  position: relative;
-}
-
-#forecast i {
-  color: #ffffff;
-  font-size: 40px;
+  margin: 0 auto;
 }
